@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+/* Header Part */
+/* Banner section */
+.resume {
+ display: flex;
+ margin: 0 auto;
+ margin-top: 50px;
+ justify-content: space-around;
+}
+.resume button {
+ padding: 21px 24px 21px 24px;
+ border-radius: 8px;
+ color: black;
+ font-family: Azeret Mono;
+ font-size: 20px;
+ font-weight: 600;
+ background-color: white;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+}
+.resume h3 {
+ color: rgb(13, 19, 33);
+ font-family: Azeret Mono;
+ font-size: 28px;
+ font-weight: 800;
+ line-height: 33px;
+ letter-spacing: 0%;
+ text-align: left;
+}
+.banner-content {
+ width: 1440px;
+ height: 652px;
+ display: flex;
+ margin: 0 auto;
+ margin-top: 130px;
+ margin-bottom: 74px;
+ background-image: url("/assets/Hero-bg.png");
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat; 
+ justify-content: center;
+ justify-items: center;
+ align-items: center;
+ flex-direction: column;
+}
+.banner-content h1 {
+ color: rgb(13, 19, 33);
+ font-family: Azeret Mono;
+ font-size: 45px;
+ font-weight: 800;
+ text-align: center;
+ margin: 0 auto;
+}
+.banner-content p {
+ color: rgb(13, 19, 33);
+ font-family: Azeret Mono;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 26px;
+ letter-spacing: 0%;
+ text-align: center
+}
+.btn {
+ padding: 21px 24px 21px 24px;
+ border-radius: 8px;
+ color: rgb(255, 255, 255);
+ font-family: Azeret Mono;
+ font-size: 20px;
+ font-weight: 600;
+ background-color: rgb(13, 19, 33);
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+}
+/* reason section starts here */
+.reason {
+ width: 946px;
+ height: 1235px;
+ border: 2px solid red;
+ display: flex;
+ margin: 0 auto;
+ margin-top: 80px;
+ margin-bottom: 80px;
+}
+.title-box {
+ width: 852px;
+ height: 115px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+ padding: 0px;
+}
+.title-box h2 {
+ color: rgb(13, 19, 33);
+ font-family: Azeret Mono;
+ font-size: 32px;
+ font-weight: 800;
+}
+.title-box p{
+ color: rgb(13, 19, 33);
+ font-family: Azeret Mono;
+ font-size: 16px;
+ font-weight: 400;
+ text-align: center;
+ opacity: 0.7;
+ margin-bottom: 48px;
+}
