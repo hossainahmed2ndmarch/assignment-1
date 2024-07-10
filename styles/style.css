@@ -8,7 +8,6 @@
  justify-content: space-around;
 }
 .resume button {
- padding: 21px 24px 21px 24px;
  border-radius: 8px;
  color: black;
  font-family: Azeret Mono;
@@ -41,6 +40,7 @@
  justify-content: center;
  justify-items: center;
  align-items: center;
+ text-align: center;
  flex-direction: column;
 }
 .banner-content h1 {
@@ -197,7 +197,7 @@
 /* current target section styles */
 .current-target {
  width: 1140px;
- height: 460px;
+ height: 550px;
  margin: 0 auto;
  display: flex;
  flex-direction: column;
@@ -266,7 +266,7 @@
 /* next-target styles */
 .next-target {
  width: 1140px;
- height: 866px;
+ height: 950px;
  margin: 0 auto;
  display: flex;
  flex-direction: column;
