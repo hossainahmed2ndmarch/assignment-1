@@ -80,6 +80,7 @@
  margin: 0 auto;
  margin-top: 80px;
  margin-bottom: 80px;
+ flex-direction: column;
 }
 .title-box {
  width: 852px;
@@ -104,4 +105,53 @@
  text-align: center;
  opacity: 0.7;
  margin-bottom: 48px;
+}
+.first-card-box {
+ display: flex;
+ flex-direction: row;
+ padding: 48px;
+ margin-top: 32px;
+ justify-content: space-between;
+} 
+.card-text-content h5 {
+ color: rgba(13, 19, 33, 0.7);
+ font-family: Azeret Mono;
+ font-size: 24px;
+ font-weight: 700;
+ text-align: left;
+}
+.card-text-content p {
+ color: rgb(13, 19, 33);
+ font-family: Azeret Mono;
+ font-size: 16px;
+ font-weight: 400;
+ text-align: left;
+ opacity: 0.7;
+}
+.card-text-content button {
+ color: rgb(13, 19, 33, 0.7);
+ font-family: Azeret Mono;
+ font-size: 20px;
+ font-weight: 600;
+ line-height: 23px;
+ letter-spacing: 0%;
+ text-align: left;
+ padding: 12px 20px 12px 20px;
+}
+.second-card-box {
+ display: flex;
+ flex-direction: row;
+ padding: 48px;
+}
+.card-image-container img {
+ width: 259.56px;
+ height: 217.01px;
+}
+.third-card-box {
+ display: flex;
+ flex-direction: row;
+ padding: 48px;
+ margin-top: 32px;
+ justify-content: space-between;
+ text-align: left;
 }
