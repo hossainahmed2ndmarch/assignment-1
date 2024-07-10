@@ -412,4 +412,29 @@
  font-weight: 600;
  margin-left: 10px;
 }
+/* footer styles */
+.my-commitment {
+ width: 1440px;
+ height: 100px;
+ display: flex;
+ margin: 0 auto;
+ margin-top: 80px;
+ margin-bottom: 80px;
+ flex-direction: row;
+ justify-content: space-around;
+}
+.text-content {
+ color: rgb(13, 19, 33);
+ font-family: Azeret Mono;
+ font-size: 20px;
+ font-weight: 600;
+}
+.icons-section {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ justify-items: flex-start;
+ align-items: center;
+ gap: 10px;
+}
 
