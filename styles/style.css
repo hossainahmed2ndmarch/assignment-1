@@ -5,7 +5,7 @@
  display: flex;
  margin: 0 auto;
  margin-top: 50px;
- justify-content: space-around;
+ justify-content: space-evenly;
 }
 .resume button {
  border-radius: 8px;
