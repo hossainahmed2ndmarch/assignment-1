@@ -17,7 +17,7 @@
    <h1>"In the near future, I hope to become a Developer."</h1>
    <p>I am industrious. I am curious to explore the world of coding. I will never lose hope INSHALLAH. I will try my best to make true the commitment.
    </p>
-   <button class="btn" type="button" onclick="scrollToFooter('my-commitment')">Contact with me</button>
+   <button class="btn" onclick="scrollToFooter()">Contact with me</button>
   </div>
  </header>
  <main>
@@ -158,7 +158,7 @@
   </section>
   <!-- support-section ends here -->
  </main>
- <footer class="my-commitment">
+ <footer id="my-commitment">
   <div class="text-content">
    <h5>An Open Commitment by Md. Hossain Ahmed</h5>
   </div>
@@ -173,6 +173,11 @@
     <img src="assets/linkedin-icon 1.png" alt="">
    </a>
   </div>
+  <script>
+   function scrollToFooter() {
+    document.getElementById('my-commitment').scrollIntoView({ behavior: 'smooth' });
+   }
+  </script>
  </footer>
 </body>
 </html>
