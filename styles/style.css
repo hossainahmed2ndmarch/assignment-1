@@ -345,4 +345,71 @@
  font-size: 16px;
  font-weight: 700;
 }
+/* support section styles */
+.support-section {
+ width: 1140px;
+ height: 313px;
+ display: flex;
+ margin: 0 auto;
+ margin-top: 46px;
+ margin-bottom: 74px;
+ border-radius: 16px;
+ background-color: rgba(0, 0, 0, 0.5);
+ background-image: url("/assets/handshake.jpg");
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat; 
+ justify-content: center;
+ justify-items: center;
+ align-items: center;
+ flex-direction: column;
+ background-blend-mode: overlay;
+}
+.suggestion {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 0 auto;
+ justify-content: center;
+ text-align: center;
+ 
+}
+.suggestion h3 {
+ color: rgb(255, 255, 255);
+ font-family: Azeret Mono;
+ font-size: 32px;
+ font-weight: 700;
+}
+.suggestion p {
+ color: rgb(255, 255, 255);
+ font-family: Azeret Mono;
+ font-size: 16px;
+ font-weight: 400;
+ text-align: center;
+}
+.sugestion-box {
+ display: flex;
+ flex-direction: row;
+}
+.sugestion-box textarea {
+ text-align: center;
+ justify-content: left;
+ padding-top: 15px;
+ border-radius: 8px;
+ color: rgba(13, 19, 33, 0.4);
+ font-family: Azeret Mono;
+ font-size: 16px;
+ font-weight: 400;
+}
+.sugestion-box button {
+ text-align: center;
+ border-radius: 8px;
+ background: rgb(255, 255, 255);
+ padding: 17px 20px 17px 20px; 
+ color: rgb(13, 19, 33);
+ font-family: Azeret Mono;
+ font-size: 20px;
+ font-weight: 600;
+ margin-left: 10px;
+}
 
